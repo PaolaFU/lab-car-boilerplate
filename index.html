@@ -11,11 +11,12 @@
     <title>LabCar</title>
 </head>
 <body>
-    <nav class="navbar navbar-default">
+    <!-- Navbar-Header -->
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-          <div class="navbar-header flex">
+          <div class="row navbar-header logo-flex">
             <!-- menu hamburguesa - movil -->
-            <button type="button" class="navbar-toggle pull-left collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle  collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -27,8 +28,8 @@
             </a>
           </div>
       
-          <!-- Ocultar elementos y agruparlos para dispositivo movil-->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!-- Navbar de la derecha y responsive (dispositivo movil)-->
+          <div class="navbar-collapse navbar-right nav-collapse-list collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
             <ul class="nav navbar-nav navbar-right">
 
               <li><a href="#">Viaja</a></li>
@@ -36,9 +37,38 @@
               <li><a href="#">Inicia sesion</a></li>
               
             </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+          </div>
+        </div>
       </nav>
+      <!--Primera seccion travel-labcar-->
+      <section>
+          <div class="container-fluid travel-labcar">
+              <div class="row ">
+                    <div class="col-md-12 container-labcar">
+                            
+                                <!-- Para mobile-->
+                                <div class="visible-xs">
+                                        <h1>Comienza a viajar</h1>
+                                        <h1> con <img src="assets/images/logoBlanco.png"></h1>
+                                        <button type="button" class="btn btn-default  visible-xs">Descarga el app</button>
+                                </div>    
+        
+                                <!--Para desktop-->
+                                <div class="hidden-xs">
+                                    <h3>Disfruta del viaje</h3>
+                                    <h3>Eres dueño de tu tiempo</h3>
+                                    <h4>Viaja con
+                                        <img src="assets/images/logoBlanco.png">
+                                    </h4>
+                                    <button class="btn btn-default btn-sm" type="submit">REGISTRATE</button>
+                                    <h5 class="line">O bien</h5>
+                                    <button class="btn btn-default btn-sm" type="submit">Conviértete en conductor</button>
+                                </div>
+                    </div>                          
+              </div>
+          </div>
+      </section>
+     
       <script src="vendors/js/jquery-3.2.1.min.js"></script>
       <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
 </body>

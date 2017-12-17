@@ -3,24 +3,75 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: white;
+    
 }
 
 /*Estilos header*/
-.flex {
+.logo-flex {
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
-
+.navbar{
+    background: white;
+}
 .navbar-brand {
     height: 100%;
     
 } 
-/*
-.navbar-brand { 
-    margin-bottom: 20px;
+/*Estilos para imagen de la primera seccion travel-labcar*/
+.travel-labcar {
+    width: 100%;
+    height: 100vh;
+
+    background-position:  bottom center;
+    background-repeat: no-repeat;
+
+    background-image: url('../assets/images/taxi.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
 }
-.navbar-right {
-    margin-top: 10px;
-} */
+/*Estilos de linea horizontal*/
+.line::before {
+    content: "";
+    display: inline-block;
+    width: 30%;
+    height: 0.1em;
+    margin-right: 2em;
+    background-color: white;
+    transform: translateY(-165%);
+  }
+.line::after {
+    content: "";
+    display: inline-block;
+    margin-left: 2em;
+    width: 30%;
+    height: 0.1em;
+    background-color: white;
+    transform: translateY(-165%);
+  }
+
+   
+
+
+/*Estilos para registro de travel-labcar*/
+.container-labcar {
+    background: #f7b617;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    color: #fff; 
+    
+
+}
+.container-labcar h3, h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.container-labcar button{
+   
+    margin-top: 5%;
+}
