@@ -80,17 +80,28 @@
     background: #f7b617;
     
     text-align: center;
+
+
+
+    color: white;
 }
 .container-information .marco{
     border: 1px solid white;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-bottom: 2em;
     padding-bottom: 2em;
-    align-items: center;
+    padding-top: 2em;
+
+
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
+    
+    align-items: center;
+    
 }
+
+
 /*
 .marco img{
     display:flex;
