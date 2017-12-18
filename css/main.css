@@ -75,3 +75,24 @@
    
     margin-top: 5%;
 }
+/*Estilos informacion de segunda seccion*/
+.container-information{
+    background: #f7b617;
+    
+    text-align: center;
+}
+.container-information .marco{
+    border: 1px solid white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+/*
+.marco img{
+    display:flex;
+    margin:0 auto;
+}*/
