@@ -20,7 +20,7 @@
     
 } 
 /*Estilos para imagen de la primera seccion travel-labcar*/
-.travel-labcar {
+.img-travel-labcar {
     width: 100%;
     height: 100vh;
 
@@ -101,7 +101,31 @@
     
 }
 
+/*Estilos  de la tercera seccion*/
+.img-conductor{
+   
+    height: 50vh;
+    
+    background-position:  center;
+    background-repeat: no-repeat;
 
+    background-image: url('../assets/images/conduce.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;  
+    
+}
+.container-conductor{
+    height: 50vh;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 7em;
+}
+.container-conductor .btn{
+    background: #f7b617;
+    border: none;
+    color: white;
+}
 /*
 .marco img{
     display:flex;
